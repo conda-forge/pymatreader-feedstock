@@ -1,11 +1,11 @@
-About pymatreader
-=================
+About pymatreader-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatreader-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/obob/pymatreader
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatreader-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convenient reader for Matlab mat files
 
