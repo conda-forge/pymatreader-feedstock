@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.9
+    - hatchling
+    - hatch-regex-commit
   run:
     - h5py
     - numpy
