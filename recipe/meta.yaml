@@ -1,5 +1,5 @@
 {% set name = "pymatreader" %}
-{% set version = "0.0.32" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 34a5b4812635c98d3e5776fc21cd7f85b045784539363674d178dfb1158a617f
+  sha256: 1bcf0dee93c567701351d83e46b91bf17ea175ac44f3f435fb08e2cfdfbd8534
 
 build:
   number: 0
@@ -18,12 +18,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
+    - hatchling
+    - hatch-regex-commit
   run:
-    - future
     - h5py
     - numpy
-    - python >=3.7
+    - python >=3.9
     - scipy !=1.7.0
     - xmltodict
 
