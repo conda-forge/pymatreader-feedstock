@@ -1,5 +1,5 @@
 {% set name = "pymatreader" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1bcf0dee93c567701351d83e46b91bf17ea175ac44f3f435fb08e2cfdfbd8534
+  sha256: d9fee72a8436557273a9ad669de3ed5582782467e2289a131396f575862638ff
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
